@@ -38,3 +38,4 @@ jobs:
           BRANCH: gh-pages
           # 打包后的文件在哪里
           FOLDER: dist
+          CLEAN: true # Automatically remove deleted files from the deploy branch
